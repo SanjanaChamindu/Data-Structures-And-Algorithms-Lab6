@@ -93,4 +93,6 @@ int main()
     auto duration1 = std::chrono::duration_cast<std::chrono::nanoseconds>(end1 - start1).count();
     cout << "Time taken for Array Stack = " << duration1 << "ns" << endl;
     cout << "" << endl;
+    
+    return 0;
 }
